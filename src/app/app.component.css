@@ -1,0 +1,43 @@
+.titulo {
+  text-align: center;
+  font-size: 20px;
+  color: #023047;
+}
+
+.table-radius {
+  border-radius: 2px;
+}
+
+table {
+  width: 100%;
+}
+
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+  /* border-spacing: 5px; */
+  padding: 5px;
+}
+
+th {
+  color: #f1faee;
+  background-color: #1d3557;
+}
+
+/* Renglón Par */
+tr:nth-child(even) {
+  background-color: #f1faee;
+}
+
+/* Renglón Impar */
+tr:nth-child(odd) {
+  background-color: #a8dadc;
+}
+
+td {
+  text-align: center;
+}
+
+/* th {
+  text-align: left;
+} */
